@@ -5,7 +5,7 @@ permalink: /about/
 ---
 ## About Me
 
-My name's Marcus Burr, an aspiring software developer based in Lancaster County, Pennsylvania. I have a genuine passion for technology and a strong foundation in programming, specializing in tailoring innovative solutions that enhance the user experience and promote collaboration.
+My name's Marcus Burr, an aspiring software developer based in Lancaster County, Pennsylvania. I have a genuine passion for technology and a strong foundation in programming, specializing in tailoring innovative solutions that enhance the user experience and promote collaboration. I've demonstrated proficiency in numerous languages including:
 
 - **Java**
 - **JavaScript**
