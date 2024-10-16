@@ -3,21 +3,23 @@
 
   <p class="excerpt">{{ post.lead_text }}</p>
 
-  {% if post.project_link != empty %}
-  <a href="{{ post.project_link }}" class="project-link"><button class="btn btn-default btn-lg"><i class="fa fa-{{post.button_icon}} fa-lg"></i>{{post.button_text}}</button></a>
-  {% endif %}
+  
 
 
 
   <!-- Attempting to add buttons for Project Links-->
   <div class="button-container">
+    {% if post.project_link != empty %}
+    <a href="{{ post.project_link }}" class="project-link"><button class="btn btn-default btn-lg"><i class="fa fa-{{post.button_icon}} fa-lg"></i>{{post.button_text}}</button></a>
+    {% endif %}
+    
     {% if post.enhancement_link != empty %}
-    <a href="{{ post.enhancement_link }}" class="btn btn-secondary btn-lg">
+    <a href="{{ post.enhancement_link }}" class="btn btn-default btn-lg">
       <i class="fa fa-github"></i> View Enhancement</a>
     {% endif %}
 
     {% if post.narrative_link != empty %}
-    <a href="{{ post.narrative_link }}" class="btn btn-info btn-lg">
+    <a href="{{ post.narrative_link }}" class="btn btn-default btn-lg">
       <i class="fab fa-google"></i> View Narrative</a>
     {% endif %}
   </div>
