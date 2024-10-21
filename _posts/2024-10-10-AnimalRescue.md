@@ -12,5 +12,5 @@ narrative_link: 'https://docs.google.com/document/d/15sLq5odYPCojxCas3kIAyB9dLkl
 button_icon: 'github'
 button_text: 'Visit Original Project'
 narrative_icon: 'google'
-lead_text: "An animal rescue database application with enhanced sorting algorithms."
+lead_text: "An animal rescue application that utilizes lists to mimic database functionality integrating enhanced sorting algorithms."
 ---
